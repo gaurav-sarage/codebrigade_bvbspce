@@ -10,7 +10,7 @@ body {
 }
 
 nav {
-    position: fixed;
+    position: relative;
     width: 100%;
     background-color: white;
     display: flex;
@@ -50,26 +50,28 @@ nav .navigation ul li a:hover {
     color: #FDC93B;
 }
 
-
-.row{ background-color: bisque;
+.row {
+    background-color: bisque;
     background-size: cover;
     background-position: center;
     display: flex;
     padding-top: 40px;
     padding-left: 30px;
-
 }
-table,th,td{
-border: 1px solid black;
+
+table,
+th,
+td {
+    border: 1px solid black;
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 td {
-  text-align: center;
+    text-align: center;
 }
 
 .footer {
