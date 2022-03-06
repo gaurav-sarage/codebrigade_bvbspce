@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="login.css">
+    <title>
+        Login / Signup 
+    </title>
+</head>
+
+<body>
+    <nav>
+        <img src="Logo.jpeg" alt="" width="200" height="100">
+        <div class="navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Order from Canteen</a></li>
+                <li><a href="#">Lost & Found Items</a></li>
+                <li><a href="#">Notice Section</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">Cleanliness Complaint</a></li>
+                <li><a href="#">Anti Ragging Committee</a></li>
+                
+            </ul>
+        </div>
+    </nav>
+    <div id="container" class="container">
+        <!-- FORM SECTION -->
+        <div class="row">
+            <!-- Sign up -->
+            <div class="col align-items-center flex-col sign-up">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-up">
+                        <div class="input-group">
+                            <i class='bx bxs-user'></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bx-mail-send'></i>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="Confirm Password">
+                        </div>
+                        <button>
+                            Sign up
+                        </button>                
+                        <p>
+                            <span>
+                                Already have an account?
+                            </span>
+                            <b onClick="toggle()" class="cursor-pointer">
+                                Sign in here
+                            </b>
+                        </p>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="social-list sign-up align-items-center">
+                        <div class="align-items-center facebook-bg">
+                            <i class="bx bxl-facebook"></i>
+                        </div>
+                        <div class="align-items-center google-bg">
+                            <i class="bx bxl-google"></i>
+                        </div>
+                        <div class="align-items-center twitter-bg">
+                            <i class="bx bxl-twitter"></i>
+                        </div>
+                        <div class="align-items-center insta-bg">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Sign up -->
+            <!-- Sign in -->
+            <div class="col align-items-center flex-col sign-in">
+                <div class="form-wrapper align-items-center">
+                    <div class="form sign-in">
+                        <div class="input-group">
+                            <i class='bx bxs-user'></i>
+                            <input type="text" placeholder="Username">
+                        </div>
+                        <div class="input-group">
+                            <i class='bx bxs-lock-alt'></i>
+                            <input type="password" placeholder="Password">
+                        </div>
+                        <button>
+                            Sign in
+                        </button>
+                        <p>
+                            <b>
+                                Forgot password?
+                            </b>
+                        </p>
+                        <p>
+                            <span>
+                                Don't have an account?
+                            </span>
+                            <b onClick="toggle()" class="cursor-pointer">
+                                Sign up here
+                            </b>
+                        </p>
+                    </div>
+                </div>
+                <div class="form-wrapper">
+                    <div class="social-list sign-in align-items-center">
+                        <div class="align-items-center facebook-bg">
+                            <i class="bx bxl-facebook"></i>
+                        </div>
+                        <div class="align-items-center google-bg">
+                            <i class="bx bxl-google"></i>
+                        </div>
+                        <div class="align-items-center twitter-bg">
+                            <i class="bx bxl-twitter"></i>
+                        </div>
+                        <div class="align-items-center insta-bg">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- End Sign in -->
+        </div>
+        <!-- END FORM SECTION -->
+        <!-- CONTENT SECTION -->
+        <div class="row content-row">
+            <!-- SIGN IN CONTENT -->
+            <div class="col align-items-center flex-col sign-in">
+                <div class="text sign-in">
+                    <h2>
+                        Welcome back
+                    </h2>
+                    <p>
+                    Founded in 2018, PES Modern has held various competions amongst the 
+                    students to encourage friendly competition and create a sense of competitive
+                    coding amongst students. PES MCoE has been successful in guiding its students
+                    towards the right path and has helped in bagging laureates for the college
+                    </p>
+                </div>
+                <div class="img sign-in">
+                    <img src="https://ak8.picdn.net/shutterstock/videos/1008131278/thumb/1.jpg" alt="">
+                </div>
+            </div>
+            <!-- END SIGN IN CONTENT -->
+            <!-- SIGN UP CONTENT -->
+            <div class="col align-items-center flex-col sign-up" >
+                <div class="img sign-up">
+                    <img src="https://s3.us-east-2.amazonaws.com/cleo.com/s3fs-public/2019-02/secure-file-sharing.jpg" alt="">
+                </div>
+                <div class="text sign-up">
+                    <h2>
+                        Join with us
+                    </h2>
+                    <p>
+                    Founded in 2018, PES Modern has held various competions amongst the 
+                    students to encourage friendly competition and create a sense of competitive
+                    coding amongst students. PES MCoE has been successful in guiding its students
+                    towards the right path and has helped in bagging laureates for the college
+                    </p>
+                </div>
+            </div>
+            <!-- END SIGN UP CONTENT -->
+        </div>
+        <!-- END CONTENT SECTION  -->
+    </div>
+
+    <script src="login.js"></script>
+    <footer class="footer">
+        <div class="l-footer">
+            <h1>
+                <img src="https://i.postimg.cc/y62wcLBq/logo.png" alt=""></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam atque recusandae in sit sunt molestiae aliquid fugit. Mollitia eaque tempore iure sit nobis? Vitae nemo, optio maiores numquam quis recusandae.</p>
+        </div>
+        <ul class="r-footer">
+            <li>
+                <h2>Social Handles</h2>
+                <ul class="box">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Pinterest</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                </ul>
+            </li>
+            <li class="features">
+                <h2>Quick Links</h2>
+                <ul class="box h-box">
+                    <li><a href="#">Blogs</a></li>
+                    <li><a href="#">Order from Canteen</a></li>
+                    <li><a href="#">Lost & Found Section</a></li>
+                    <li><a href="#">Notice Section</a></li>
+                    <li><a href="#">Photo Gallery</a></li>
+                    <li><a href="#">Cleanliness </a></li>
+                    <li><a href="#">Anti Ragging</a></li>
+                    <li><a href="#">Login / SignUp</a></li>
+                </ul>
+            </li>
+            <li>
+                <h2>Contact Us</h2>
+                <ul class="box">
+                    <li><a href="#">Via E-Mail ID</a></li>
+                    <li><a href="#">Phone Number - +91-9999999999</a></li>
+                    <li><a href="#">Address - xxx xxx xxx</a></li>
+                </ul>
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
