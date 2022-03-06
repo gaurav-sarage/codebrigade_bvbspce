@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Canteen Section</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="./canteenorder.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <nav>
+        <label class="logo"> <img src="./logo.jpeg" alt=""><a href="./index.html"></a></label>
+        <ul>
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#cart">Cart (<span class="total-count"></span>)</button><button class="clear-cart btn btn-danger">Clear Cart</button></div>
+                    <a href="canteenorder.html">Snacks Section</a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="jumbotron" style="margin-top:60px;">
+            <h1>Lunch Section</h1>
+            <p>Craving for something that will fill your belly? Try the new lunch options and enjoy them!
+            </p>
+        </div>
+
+        <div class="container">
+            <h2 class="card-title">
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./North Thali.png">
+                        <div class="caption">
+                            <h3 class="card-title"><b>NORTHERN THALI</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 80</h3></b></p>
+                        </div>
+                        <a href="#" data-name="NORTHERN THALI" data-price="80" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail" >
+                        <img src="./Marathi Thali.png">
+                        <div class="caption">
+                            <h3 class="card-title"><b>MARATHI THALI</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 80</h3></b></p>
+                        </div>
+                        <a href="#" data-name="MARATHI THALI" data-price="80" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./Burger.png">
+                        <div class="caption">
+                            <h3 class="card-title"><b>BURGER</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 80</h3></b></p>
+                        </div>
+                        <a href="#" data-name="BURGER" data-price="80" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./rice plate.jpg">
+                        <div class="caption">
+                            <h3 class="card-title"><b>RICE PLATE</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 50</h3></b></p>
+                        </div>
+                        <a href="#" data-name="RICE PLATE" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./pizza.jpg">
+                        <div class="caption">
+                            <h3 class="card-title"><b>PIZZA</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 80</h3></b></p>
+                        </div>
+                        <a href="#" data-name="PIZZA" data-price="80" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <br>
+
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./idli.jpg">
+                        <div class="caption">
+                            <h3 class="card-title"><b>IDLI</b></h3>
+                            <p class="card-text"><b>Quantity: 2</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 50</h3></b></p>
+                        </div>
+                        <a href="#" data-name="IDLI" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="./punjabi thali.jpg">
+                        <div class="caption">
+                            <h3 class="card-title"><b>PUNJABI THALI</b></h3>
+                            <p class="card-text"><b>Quantity: 1</b></p>
+                            <p class="card-text"><b><h3>Price: Rs. 50</h3></b></p>
+                        </div>
+                        <a href="#" data-name="PUNJABI THALI" data-price="50" class="add-to-cart btn btn-primary">Add to cart</a>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    </div>
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+
+                    </table>
+                    <div>Total price: Rs<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button id="rzp-button1">Pay</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer class="footer">
+    <div class="l-footer">
+        <h1>Colley </h1>
+        <p>Welcome, to the <b>one stop solution </b>to all your misc problems at college! Our application will help you execute your tasks properly😉 and help you have an amazing day at college!😎😎 Make the best use of it!</p>
+    </div>
+    <ul class="r-footer">
+        <li>
+            <h2>Social Handles</h2>
+            <ul class="box">
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Pinterest</a></li>
+                <li><a href="#">Dribbble</a></li>
+            </ul>
+        </li>
+        <li class="features">
+            <h2>Quick Links</h2>
+            <ul class="box h-box">
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Order from Canteen</a></li>
+                <li><a href="#">Lost & Found Section</a></li>
+                <li><a href="#">Notice Section</a></li>
+                <li><a href="#">Photo Gallery</a></li>
+                <li><a href="#">Cleanliness </a></li>
+                <li><a href="#">Anti Ragging</a></li>
+                <li><a href="#">Login / SignUp</a></li>
+            </ul>
+        </li>
+        <li>
+            <h2>Contact Us</h2>
+            <ul class="box">
+                <li><a href="#">Via abcde@gmail.com </a></li>
+                <li><a href="#">Phone Number - +91-9999999999</a></li>
+                <li><a href="#">Address - xxx xxx xxx</a></li>
+            </ul>
+        </li>
+    </ul>
+</footer>
+<script src="./canteenorder.js"></script>
+
+</html>
