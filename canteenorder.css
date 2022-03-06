@@ -7,13 +7,18 @@
 }
 
 body {
-    font-family: montserrat;
+    font-family: sans-serif
 }
 
 nav {
     background: black;
     height: 80px;
     width: 100%;
+}
+
+nav img {
+    width: 68px;
+    cursor: pointer;
 }
 
 label.logo {
