@@ -9,9 +9,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
-/* Global Tags */
-
 h1 {
     font-size: 2rem;
     font-weight: 700;
@@ -42,7 +39,7 @@ nav {
 }
 
 nav img {
-    width: 140px;
+    width: 68px;
     cursor: pointer;
 }
 
